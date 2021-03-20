@@ -2,11 +2,11 @@ import incomeImage from '../../assets/income.svg';
 import outcomeImage from '../../assets/outcome.svg';
 import totalImage from '../../assets/total.svg';
 
-import { Container } from './styles';
+import * as Styled from './styles';
 
 export function Summary() {
   return (
-    <Container>
+    <Styled.Container>
       <div>
         <header>
           <p>Entradas</p>
@@ -28,6 +28,6 @@ export function Summary() {
         </header>
         <strong>R$ 500,00</strong>
       </div>
-    </Container>
+    </Styled.Container>
   );
 }

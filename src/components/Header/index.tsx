@@ -2,13 +2,19 @@ import logoImage from '../../assets/logo.svg';
 
 import * as Styled from './styles';
 
-export function Header() {
+interface HeaderProps {
+  openNewTransactionModal: () => void;
+}
+
+export function Header({ openNewTransactionModal }: HeaderProps) {
   return (
     <Styled.Container>
       <Styled.Content>
         <img src={logoImage} alt="dt money" />
 
-        <button type="button">Nova transação</button>
+        <button type="button" onClick={openNewTransactionModal}>
+          Nova transação
+        </button>
       </Styled.Content>
     </Styled.Container>
   );
