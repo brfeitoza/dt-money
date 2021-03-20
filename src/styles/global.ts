@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     --text-body: #969cb3;
 
     --background: #f0f2f5;
-    --shape: #ffffff;    
+    --shape: #ffffff;
   }
 
   * {
@@ -44,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
   }
 
-  button { 
+  button {
     cursor: pointer;
   }
 
