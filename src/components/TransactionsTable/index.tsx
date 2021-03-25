@@ -1,6 +1,6 @@
 import { useTransactions } from 'hooks/useTransactions';
 
-import { Container } from './styled';
+import { Container } from './styles';
 
 export function TransactionsTable() {
   const { transactions } = useTransactions();

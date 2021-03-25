@@ -1,5 +1,4 @@
-import { Summary } from '../Summary';
-import { TransactionsTable } from '../TransactionsTable';
+import { Summary, TransactionsTable } from '../index';
 
 import * as Styled from './styles';
 
